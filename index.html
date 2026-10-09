@@ -1,12 +1,25 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%234fe1d9%27/%3E%3Ctext x=%2732%27 y=%2742%27 font-family=%27Arial%27 font-weight=%27900%27 font-size=%2726%27 text-anchor=%27middle%27 fill=%27%23050b13%27%3ESB%3C/text%3E%3C/svg%3E">
-<title>Stiven Bedoya · Sistemas Digitales</title>
-<meta name="description" content="Web, WhatsApp Business, CRM, automatización y contenido para empresas de servicios técnicos en Medellín y el Valle de Aburrá.">
+<title>Stiven Bedoya · Soluciones digitales para negocios</title>
+<meta name="description" content="Diagnóstico digital, estrategia de marketing digital, presencia digital, CRM, automatización y sistemas para negocios. Medellín y atención remota.">
+<meta name="theme-color" content="#050b13">
+<link rel="canonical" href="https://stymaster182-ship-it.github.io/stiven-bedoya-servicios/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CO">
+<meta property="og:site_name" content="Stiven Bedoya">
+<meta property="og:title" content="Stiven Bedoya · Soluciones digitales para negocios">
+<meta property="og:description" content="Analizo, organizo y construyo soluciones digitales para que los negocios trabajen con más orden y aprovechen mejor sus oportunidades.">
+<meta property="og:url" content="https://stymaster182-ship-it.github.io/stiven-bedoya-servicios/">
+<meta property="og:image" content="https://stymaster182-ship-it.github.io/stiven-bedoya-servicios/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Stiven Bedoya · Soluciones digitales · Estrategia · Automatización · Sistemas para negocios">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
-/* Layout: blueprint-grid hero with a "sistema conectado" illustration (web → WhatsApp → CRM wired like a single-line diagram), then calm content bands on deep navy. Single dark look by choice. */
+/* Layout: blueprint-grid hero with a diagnosis → roadmap → connected-channels illustration, then calm content bands on deep navy. Single dark look by choice. */
 :root{
   color-scheme:dark;
   --ink:#050b13; --ink2:#071321; --panel:#0b1726; --panel2:#0f2134; --line:#1d374c; --line2:#2a4a63;
@@ -386,6 +399,120 @@ footer strong{color:var(--txt)}
   .stack{position:static;justify-items:start;display:flex;flex-wrap:wrap;margin-bottom:12px}
   .case-visual{align-content:end}
 }
+
+/* ===== v2: soluciones digitales ===== */
+.lead + .lead{margin-top:14px;font-size:clamp(.98rem,1.2vw,1.06rem)}
+/* Hero diagnosis mock */
+.audit{min-width:0;border-radius:12px;padding:14px;background:rgba(0,0,0,.24);border:1px solid var(--line);display:grid;gap:8px;align-content:start}
+.audit small,.plan small{font-family:var(--f-mono);font-size:.62rem;letter-spacing:.12em;color:var(--amber);text-transform:uppercase}
+.arow{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:.72rem;color:var(--muted);min-width:0}
+.arow > span:first-child{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.st{flex:none;font-family:var(--f-mono);font-size:.6rem;padding:2px 8px;border-radius:999px;white-space:nowrap;border:1px solid}
+.st.ok{color:var(--green);border-color:rgba(95,214,138,.4);background:rgba(95,214,138,.08)}
+.st.warn{color:var(--amber);border-color:rgba(255,181,71,.4);background:rgba(255,181,71,.07)}
+.st.bad{color:#ff8a8a;border-color:rgba(255,138,138,.4);background:rgba(255,138,138,.07)}
+.plan{display:grid;gap:8px;align-content:start;min-width:0}
+.plan .fld{min-height:28px;border-radius:7px;background:rgba(0,0,0,.28);border:1px solid var(--line);font-size:.7rem;color:var(--txt);display:flex;align-items:center;gap:7px;padding:4px 9px;line-height:1.3}
+.plan .fld b{color:var(--cyan);font-family:var(--f-mono);font-weight:600}
+.plan .send{height:30px;border-radius:7px;background:var(--cyan);color:#04201d;font-weight:600;font-size:.72rem;display:grid;place-items:center}
+
+/* Diagnosis section */
+.diag{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(24px,4vw,48px);align-items:start}
+.diag-quote{padding:clamp(26px,4vw,40px);border-radius:var(--r-lg);border:1px solid rgba(79,225,217,.35);background:linear-gradient(160deg,rgba(79,225,217,.11),var(--panel) 60%);display:grid;gap:18px;min-width:0}
+.diag-quote blockquote{margin:0;font-family:var(--f-display);font-size:clamp(1.4rem,2.6vw,1.95rem);line-height:1.2;font-weight:700;font-stretch:105%;text-wrap:balance}
+.diag-quote blockquote::before{content:"“";display:block;color:var(--cyan);font-size:3rem;line-height:.6;margin-bottom:10px}
+.diag-quote p{color:var(--muted);font-size:1.02rem}
+.diag-quote .btn{justify-self:start}
+.phases{display:grid;gap:14px;min-width:0}
+.phase{padding:22px 24px;border-radius:var(--r-md);background:var(--panel);border:1px solid var(--line);min-width:0}
+.phase h3{display:flex;align-items:baseline;gap:12px;font-size:1.22rem;font-weight:700;font-stretch:106%}
+.phase h3 span{font-family:var(--f-mono);font-size:.8rem;color:var(--cyan);font-weight:600}
+.phase > p{color:var(--muted);font-size:.95rem;margin-top:6px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.tags span{font-size:.9rem;line-height:1.35;padding:7px 12px;border-radius:999px;border:1px solid var(--line2);background:rgba(255,255,255,.03);color:var(--txt)}
+
+/* Expandable service cards */
+details.svc{display:block}
+details.svc > summary{list-style:none;cursor:pointer;display:grid;gap:10px;align-content:start}
+details.svc > summary::-webkit-details-marker{display:none}
+.svc .num{font-family:var(--f-mono);font-size:.75rem;color:var(--dim);letter-spacing:.08em}
+.svc .top-row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.svc .ic{margin-bottom:0}
+.more{display:inline-flex;align-items:center;gap:10px;min-height:44px;margin-top:4px;font-family:var(--f-mono);font-size:.82rem;color:var(--cyan);font-weight:500}
+.more i{width:22px;height:22px;border-radius:50%;border:1px solid rgba(79,225,217,.5);display:grid;place-items:center;font-style:normal;transition:transform .2s ease;line-height:1}
+.more .c{display:none}
+details[open] .more .o{display:none}
+details[open] .more .c{display:inline}
+details[open] .more i{transform:rotate(45deg)}
+.svc-body{display:grid;gap:16px;padding-top:16px;margin-top:6px;border-top:1px solid var(--line)}
+.svc-body h4{margin:0 0 8px;font-family:var(--f-mono);font-size:.74rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--dim)}
+.svc .svc-body ul{margin:0;padding:0;list-style:none;display:grid;gap:7px;font-family:var(--f-body);font-size:.93rem;color:var(--muted);line-height:1.45}
+.svc .svc-body li{display:grid;grid-template-columns:14px 1fr;gap:8px}
+.svc .svc-body li::before{content:"—";color:var(--cyan)}
+.svc .tags span{font-size:.84rem;padding:6px 11px}
+.note{font-size:.9rem;line-height:1.5;color:var(--muted);padding:12px 14px;border-left:2px solid var(--amber);background:rgba(255,181,71,.06);border-radius:0 10px 10px 0}
+.note.cy{border-left-color:var(--cyan);background:var(--cyan-soft)}
+.note b{color:var(--txt)}
+.svc-link{font-family:var(--f-mono);font-size:.84rem;color:var(--cyan);min-height:44px;display:inline-flex;align-items:center}
+.svc-link:hover{text-decoration:underline}
+.svc.key{background:linear-gradient(180deg,rgba(79,225,217,.07),var(--panel) 50%)}
+
+/* Scope: sí / no */
+.scope{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px}
+.scope-col{padding:24px 26px;border-radius:var(--r-md);border:1px solid var(--line);background:rgba(255,255,255,.02);min-width:0}
+.scope-col ul{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:10px;font-size:.96rem}
+.scope-col li{display:grid;grid-template-columns:20px 1fr;gap:10px;align-items:start}
+.scope-col li svg{width:18px;height:18px;margin-top:3px}
+.scope-col.yes li svg{color:var(--green)}
+.scope-col.no .eyebrow{color:var(--amber)}
+.scope-col.no li{color:var(--muted)}
+.scope-col.no li svg{color:var(--amber)}
+.scope-col > p{margin-top:16px;color:var(--muted);font-size:.92rem;padding-top:14px;border-top:1px solid var(--line)}
+
+/* IA section */
+.ia{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,48px);align-items:start}
+.ia .head{margin-bottom:0}
+.ia-msg{margin-top:22px;padding:20px 22px;border-radius:var(--r-md);border:1px solid rgba(79,225,217,.3);background:var(--cyan-soft);font-size:1.08rem;line-height:1.5;color:var(--txt)}
+.ia-cards{display:grid;gap:14px;min-width:0}
+.ia-card{padding:24px;border-radius:var(--r-md);background:var(--panel);border:1px solid var(--line);min-width:0}
+.ia-card h3{font-size:1.15rem;font-weight:700;font-stretch:105%}
+.ia-card ul{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:10px;color:var(--muted);font-size:.95rem}
+.ia-card li{display:grid;grid-template-columns:20px 1fr;gap:10px}
+.ia-card li svg{width:18px;height:18px;color:var(--cyan);margin-top:3px}
+
+/* OficioCerca visual */
+.v-oc{background:radial-gradient(circle at 85% 15%,rgba(255,181,71,.2),transparent 45%),radial-gradient(circle at 10% 90%,rgba(95,214,138,.14),transparent 45%),linear-gradient(160deg,#1f2a1d,#0b0f0a)}
+.v-oc .mini-in small{color:#ffcf86}
+.track{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.track span{font-family:var(--f-mono);font-size:.6rem;padding:3px 8px;border-radius:999px;border:1px solid var(--line2);color:var(--muted);background:rgba(0,0,0,.25)}
+.track span.on{color:#04201d;background:var(--green);border-color:transparent}
+.case-status{font-family:var(--f-mono);font-size:.78rem;color:var(--green);display:flex;align-items:center;gap:8px}
+.case-status::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--green);flex:none}
+.case-body .small{color:var(--dim);font-size:.88rem}
+.cases-note{margin-top:18px;color:var(--dim);font-size:.9rem;font-family:var(--f-mono)}
+
+@media (max-width:1020px){
+  .diag,.ia,.scope{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  .phase{padding:20px}
+  .scope-col{padding:22px 20px}
+  .diag-quote .btn{justify-self:stretch;width:100%}
+  .site{padding:14px}
+  .entry .btn{width:100%}
+}
+
+/* Legibility on phones */
+.pain .q{color:var(--txt)}
+.eyebrow{font-size:.8rem}
+.deliv span{font-size:.8rem;padding:6px 11px}
+.pain .tag{font-size:.76rem}
+.pkg .flag{font-size:.7rem}
+.pkg .for{font-size:.82rem}
+.step .time{font-size:.8rem}
+.ct small{font-size:.72rem}
+.case-link{font-size:.86rem;min-height:44px;display:inline-flex;align-items:center}
+@media (max-width:560px){.badge .eyebrow{font-size:.76rem;letter-spacing:.08em}}
 </style>
 </head><body>
 
@@ -419,13 +546,14 @@ footer strong{color:var(--txt)}
   <div class="wrap">
     <a class="brand" href="#inicio"><span class="mark">SB</span><span>STIVEN <i>BEDOYA</i></span></a>
     <nav class="nav" aria-label="Secciones">
-      <a href="#soluciones">Soluciones</a>
-      <a href="#experiencia">Experiencia</a>
-      <a href="#paquetes">Paquetes</a>
+      <a href="#diagnostico">Diagnóstico</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#ia">IA aplicada</a>
+      <a href="#proyectos">Proyectos</a>
       <a href="#proceso">Proceso</a>
       <a href="#contacto">Contacto</a>
     </nav>
-    <a class="btn primary" target="_blank" rel="noopener" href="https://wa.me/573116994596?text=Hola%20Stiven,%20quiero%20revisar%20mi%20negocio.">Solicitar revisión</a>
+    <a class="btn primary" target="_blank" rel="noopener" href="https://wa.me/573116994596?text=Hola%20Stiven%2C%20quiero%20solicitar%20un%20diagn%C3%B3stico%20de%20mi%20negocio.">Solicitar diagnóstico</a>
   </div>
 </header>
 
@@ -434,17 +562,18 @@ footer strong{color:var(--txt)}
 <section class="hero">
   <div class="wrap">
     <div class="hero-copy">
-      <div class="badge"><span class="dot"></span><span class="eyebrow">Sistemas digitales para empresas de servicios técnicos</span></div>
-      <h1><span>DIGITALIZA.</span><span>CONECTA.</span><span class="c">CONVIERTE.</span></h1>
-      <p class="lead">Construyo la infraestructura digital que ayuda a una empresa técnica a <b>verse profesional</b>, <b>captar solicitudes</b> y <b>hacer seguimiento a cada cotización</b> sin perder clientes en el camino.</p>
+      <div class="badge"><span class="dot"></span><span class="eyebrow">Soluciones digitales · Estrategia · Automatización · Sistemas para negocios</span></div>
+      <h1><span>ANALIZO.</span><span>ORGANIZO.</span><span class="c">CONSTRUYO.</span></h1>
+      <p class="lead">Analizo, organizo y construyo <b>soluciones digitales</b> para que los negocios <b>trabajen con más orden</b> y <b>aprovechen mejor sus oportunidades</b>.</p>
+      <p class="lead">Combino estrategia, herramientas digitales, automatización e inteligencia artificial para pasar del diagnóstico a soluciones prácticas.</p>
       <div class="actions">
-        <a class="btn primary" target="_blank" rel="noopener" href="https://wa.me/573116994596?text=Hola%20Stiven,%20quiero%20revisar%20mi%20negocio."><svg><use href="#i-wa"/></svg>Solicitar revisión</a>
-        <a class="btn ghost" href="#experiencia">Ver proyectos reales <svg><use href="#i-arrow"/></svg></a>
+        <a class="btn primary" target="_blank" rel="noopener" href="https://wa.me/573116994596?text=Hola%20Stiven%2C%20quiero%20solicitar%20un%20diagn%C3%B3stico%20de%20mi%20negocio."><svg><use href="#i-wa"/></svg>Solicitar diagnóstico</a>
+        <a class="btn ghost" href="#servicios">Ver servicios <svg><use href="#i-arrow"/></svg></a>
       </div>
-      <div class="hero-meta"><span>Medellín · Valle de Aburrá</span><span>Atención remota en Colombia</span><span>Diagnóstico inicial sin costo</span></div>
+      <div class="hero-meta"><span>Medellín · Valle de Aburrá</span><span>Atención remota</span><span>Conversación inicial sin costo</span></div>
     </div>
 
-    <div class="scene" aria-label="Ilustración: una web capta la solicitud, llega a WhatsApp y queda registrada en el CRM">
+    <div class="scene" aria-label="Ilustración: un diagnóstico digital define prioridades, y los canales quedan conectados con WhatsApp y un CRM">
       <svg class="wires" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
         <path d="M26 46 V62 H20 V70"/>
         <path d="M74 46 V60 H70 V68"/>
@@ -452,20 +581,22 @@ footer strong{color:var(--txt)}
       </svg>
 
       <div class="win">
-        <div class="win-bar"><i></i><i></i><i></i><span class="url">tuempresa.com.co / cotizar</span></div>
+        <div class="win-bar"><i></i><i></i><i></i><span class="url">diagnóstico digital · tu negocio</span></div>
         <div class="site">
-          <div class="site-hero">
-            <svg class="bolt"><use href="#i-bolt"/></svg>
-            <small>Instalaciones certificadas</small>
-            <strong>Diseño, montaje y certificación RETIE en Antioquia</strong>
-            <div class="chips"><span class="chip">RETIE</span><span class="chip">Solar</span><span class="chip">Mantenimiento</span><span class="chip">+40 proyectos</span></div>
+          <div class="audit" aria-hidden="true">
+            <small>Ecosistema digital</small>
+            <div class="arow"><span>Perfil en Google</span><span class="st ok">Completo</span></div>
+            <div class="arow"><span>Sitio web</span><span class="st warn">Sin formulario</span></div>
+            <div class="arow"><span>Redes sociales</span><span class="st warn">Sin estrategia</span></div>
+            <div class="arow"><span>WhatsApp Business</span><span class="st warn">Sin orden</span></div>
+            <div class="arow"><span>Seguimiento comercial</span><span class="st bad">No existe</span></div>
           </div>
-          <div class="form" aria-hidden="true">
-            <span class="lbl">Solicita tu cotización</span>
-            <span class="fld">Nombre y empresa</span>
-            <span class="fld">Tipo de proyecto ▾</span>
-            <span class="fld">Municipio</span>
-            <span class="send">Enviar por WhatsApp</span>
+          <div class="plan" aria-hidden="true">
+            <small>Hoja de ruta</small>
+            <span class="fld"><b>1</b> Ordenar solicitudes en un CRM</span>
+            <span class="fld"><b>2</b> Definir pilares de contenido</span>
+            <span class="fld"><b>3</b> Automatizar avisos al equipo</span>
+            <span class="send">Implementar</span>
           </div>
         </div>
       </div>
@@ -473,45 +604,45 @@ footer strong{color:var(--txt)}
       <div class="scene-row">
         <div class="phone">
           <div class="phone-in">
-            <div class="wa-top"><span class="av">TE</span><div><b>Tu Empresa</b><em>Cuenta de empresa</em></div></div>
+            <div class="wa-top"><span class="av">TN</span><div><b>Tu Negocio</b><em>Cuenta de empresa</em></div></div>
             <div class="msgs">
-              <div class="m in">Hola, necesito cotizar una certificación RETIE para un local en Itagüí.<span class="t">9:12</span></div>
-              <div class="m out">¡Hola! Gracias por escribir. Para cotizar necesitamos: área, uso y fotos del tablero.<span class="t">9:12 ✓✓</span></div>
-              <div class="quick"><span>Cotizar</span><span>Portafolio</span><span>Horarios</span></div>
+              <div class="m in">Hola, quiero cotizar un servicio para mi local.<span class="t">9:12</span></div>
+              <div class="m out">¡Hola! Gracias por escribir. Cuéntanos qué necesitas y te enviamos las opciones.<span class="t">9:12 ✓✓</span></div>
+              <div class="quick"><span>Cotizar</span><span>Servicios</span><span>Horarios</span></div>
             </div>
           </div>
         </div>
 
         <div class="win crm">
-          <div class="win-bar"><i></i><i></i><i></i><span class="url">CRM · Cotizaciones</span></div>
+          <div class="win-bar"><i></i><i></i><i></i><span class="url">CRM · Oportunidades</span></div>
           <div class="crm-body">
-            <div class="col"><h4>Solicitud</h4><div class="deal"><b>Local Itagüí</b><span>hoy</span></div><div class="deal"><b>Bodega Sabaneta</b><span>ayer</span></div></div>
-            <div class="col"><h4>Cotizado</h4><div class="deal"><b>Edificio Envigado</b><span>$ 18,4 M</span></div></div>
-            <div class="col"><h4>Seguimiento</h4><div class="deal warn"><b>Clínica Laureles</b><span>llamar hoy</span></div></div>
-            <div class="col"><h4>Ganado</h4><div class="deal ok"><b>Planta Bello</b><span>aprobado</span></div></div>
+            <div class="col"><h4>Nueva</h4><div class="deal"><b>Local Itagüí</b><span>hoy</span></div><div class="deal"><b>Empresa Sabaneta</b><span>ayer</span></div></div>
+            <div class="col"><h4>Cotizada</h4><div class="deal"><b>Oficina Envigado</b><span>enviada</span></div></div>
+            <div class="col"><h4>Seguimiento</h4><div class="deal warn"><b>Cliente Laureles</b><span>escribir hoy</span></div></div>
+            <div class="col"><h4>Cerrada</h4><div class="deal ok"><b>Planta Bello</b><span>aprobada</span></div></div>
           </div>
         </div>
       </div>
-      <div class="flow-explainer" aria-label="Cómo funciona el sistema">
-        <span class="flow-step"><b>1</b> El cliente llega a la web</span>
+      <div class="flow-explainer" aria-label="Cómo trabajo">
+        <span class="flow-step"><b>1</b> Analizamos qué está ocurriendo</span>
         <span class="flow-arrow">→</span>
-        <span class="flow-step"><b>2</b> Escribe por WhatsApp</span>
+        <span class="flow-step"><b>2</b> Definimos prioridades</span>
         <span class="flow-arrow">→</span>
-        <span class="flow-step"><b>3</b> La solicitud queda registrada en el CRM</span>
+        <span class="flow-step"><b>3</b> Implementamos lo necesario</span>
         <span class="flow-arrow">→</span>
-        <span class="flow-step"><b>4</b> Se programa el seguimiento hasta cerrar o descartar</span>
+        <span class="flow-step"><b>4</b> Revisamos y ajustamos</span>
       </div>
-      <p class="scene-note">Ejemplo ilustrativo de un flujo conectado · web → WhatsApp → CRM → seguimiento</p>
+      <p class="scene-note">Ejemplo ilustrativo · diagnóstico → hoja de ruta → canales conectados → seguimiento</p>
     </div>
   </div>
 </section>
 
-<section class="pillars" aria-label="Qué construyo">
+<section class="pillars" aria-label="Cómo aporto">
   <div class="wrap">
-    <div class="pillar"><svg><use href="#i-web"/></svg><strong>Web & Landing</strong><p>Presencia profesional orientada a contacto.</p></div>
-    <div class="pillar"><svg><use href="#i-chat"/></svg><strong>WhatsApp & Captación</strong><p>Rutas claras para que una consulta se vuelva oportunidad.</p></div>
-    <div class="pillar"><svg><use href="#i-crm"/></svg><strong>CRM & Seguimiento</strong><p>Contactos, cotizaciones y próximas acciones en orden.</p></div>
-    <div class="pillar"><svg><use href="#i-flow"/></svg><strong>Automatización</strong><p>Menos tareas repetitivas, más tiempo para operar.</p></div>
+    <div class="pillar"><svg><use href="#i-search"/></svg><strong>Analizo</strong><p>El negocio, sus canales, procesos y datos disponibles.</p></div>
+    <div class="pillar"><svg><use href="#i-doc"/></svg><strong>Recomiendo</strong><p>Qué hacer, en qué orden y con qué herramientas.</p></div>
+    <div class="pillar"><svg><use href="#i-flow"/></svg><strong>Implemento</strong><p>Buena parte de la solución: canales, CRM, automatizaciones y sistemas.</p></div>
+    <div class="pillar"><svg><use href="#i-chart"/></svg><strong>Acompaño</strong><p>Reviso resultados y ajusto, cuando el proyecto lo requiere.</p></div>
   </div>
 </section>
 
@@ -519,50 +650,265 @@ footer strong{color:var(--txt)}
   <div class="wrap">
     <div class="head">
       <span class="eyebrow">Para quién trabajo</span>
-      <h2>Empresas técnicas que ya funcionan, pero venden en desorden.</h2>
-      <p>Me enfoco en negocios de servicios técnicos y profesionales del Valle de Aburrá, donde un solo trabajo extra paga la inversión.</p>
+      <h2>Negocios que ya funcionan, pero trabajan con desorden digital.</h2>
+      <p>Empresas de servicios, negocios locales y proyectos en crecimiento que necesitan claridad antes de invertir en más herramientas. En Medellín, el Valle de Aburrá y de forma remota.</p>
     </div>
     <div class="sectors">
-      <span class="sector"><svg><use href="#i-bolt"/></svg>Electricidad y RETIE</span>
-      <span class="sector"><svg><use href="#i-sun"/></svg>Energía solar</span>
-      <span class="sector"><svg><use href="#i-cam"/></svg>Cámaras y seguridad electrónica</span>
-      <span class="sector"><svg><use href="#i-snow"/></svg>Aire acondicionado y refrigeración</span>
-      <span class="sector"><svg><use href="#i-gear"/></svg>Automatización industrial</span>
-      <span class="sector"><svg><use href="#i-build"/></svg>Ingeniería y mantenimiento</span>
+      <span class="sector"><svg><use href="#i-bolt"/></svg>Servicios técnicos y profesionales</span>
+      <span class="sector"><svg><use href="#i-build"/></svg>Ingeniería, obra y mantenimiento</span>
+      <span class="sector"><svg><use href="#i-gear"/></svg>Talleres y manufactura</span>
+      <span class="sector"><svg><use href="#i-pin"/></svg>Comercios y negocios locales</span>
+      <span class="sector"><svg><use href="#i-chart"/></svg>Marcas y emprendimientos</span>
+      <span class="sector"><svg><use href="#i-flow"/></svg>Proyectos en etapa piloto</span>
     </div>
 
     <div class="pains">
-      <div class="pain"><span class="tag">Fuga 01 · Seguimiento</span><p class="q">Cotizan mucho y nadie vuelve a escribir.</p><p>La cotización sale, el cliente compara con otras tres y la decisión la gana quien hace seguimiento.</p></div>
-      <div class="pain"><span class="tag">Fuga 02 · Visibilidad</span><p class="q">No aparecen cuando alguien los busca.</p><p>Sin perfil de Google completo ni web clara, el cliente nuevo encuentra primero a la competencia.</p></div>
-      <div class="pain"><span class="tag">Fuga 03 · Credibilidad</span><p class="q">Cuando piden portafolio, mandan fotos sueltas.</p><p>Constructoras y administradores esperan una presentación seria con proyectos, certificaciones y cobertura.</p></div>
+      <div class="pain"><span class="tag">Síntoma 01 · Dirección</span><p class="q">Publican, pero no saben qué funciona.</p><p>Hay redes activas, pero sin objetivos, sin pilares de contenido y sin lectura de las métricas que orienten qué hacer.</p></div>
+      <div class="pain"><span class="tag">Síntoma 02 · Seguimiento</span><p class="q">Las solicitudes llegan y se pierden.</p><p>Mensajes, correos y cotizaciones sin un lugar común: nadie sabe qué está pendiente ni a quién responder primero.</p></div>
+      <div class="pain"><span class="tag">Síntoma 03 · Operación</span><p class="q">Todo depende de tareas manuales.</p><p>Copiar datos, responder lo mismo, recordar seguimientos: tiempo que se puede liberar con procesos más ordenados.</p></div>
     </div>
   </div>
 </section>
 
-<section class="band alt" id="soluciones">
+<section class="band alt" id="diagnostico">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">Soluciones</span>
-      <h2>No vendo “IA”. Implemento soluciones.</h2>
-      <p>La tecnología es el medio. El objetivo es resolver problemas reales de presencia, captación, seguimiento y operación.</p>
+      <span class="eyebrow">Diagnóstico y acompañamiento</span>
+      <h2>Primero entendemos qué pasa. Después definimos la solución.</h2>
+    </div>
+    <div class="diag">
+      <div class="diag-quote">
+        <blockquote>No necesitas saber si tu problema se resuelve con una página, un CRM, automatización, marketing o inteligencia artificial.</blockquote>
+        <p>Primero analizamos qué está ocurriendo en tu negocio y después definimos qué hacer, en qué orden y con qué herramientas. A veces la mejor recomendación es ordenar un proceso, no comprar una herramienta nueva.</p>
+        <a class="btn primary" target="_blank" rel="noopener" href="https://wa.me/573116994596?text=Hola%20Stiven%2C%20quiero%20solicitar%20un%20diagn%C3%B3stico%20de%20mi%20negocio."><svg><use href="#i-wa"/></svg>Solicitar diagnóstico</a>
+      </div>
+      <div class="phases">
+        <div class="phase">
+          <h3><span>01</span>Analizar</h3>
+          <p>Entender cómo funciona hoy el negocio y dónde se pierde tiempo u oportunidades.</p>
+          <div class="tags"><span>Diagnóstico digital</span><span>Análisis del negocio</span><span>Revisión de procesos</span><span>Detección de problemas</span><span>Tareas repetitivas</span><span>Evaluación de canales digitales</span><span>Herramientas existentes</span></div>
+        </div>
+        <div class="phase">
+          <h3><span>02</span>Proponer</h3>
+          <p>Convertir los hallazgos en decisiones claras y priorizadas.</p>
+          <div class="tags"><span>Propuesta de mejoras</span><span>Prioridades</span><span>Hoja de ruta</span></div>
+        </div>
+        <div class="phase">
+          <h3><span>03</span>Acompañar</h3>
+          <p>Implementar lo acordado y revisar que funcione en la práctica.</p>
+          <div class="tags"><span>Acompañamiento de implementación</span><span>Revisión posterior</span><span>Ajustes según resultados</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="servicios">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Servicios</span>
+      <h2>Seis áreas, una misma solución.</h2>
+      <p>Cada negocio necesita una combinación distinta. Toca cada área para ver qué incluye.</p>
     </div>
     <div class="svc-grid">
-      <article class="svc"><span class="ic"><svg><use href="#i-web"/></svg></span><h3>Web & Landing Pages</h3><p>Servicios, proyectos, certificaciones y contacto, pensados primero para el celular.</p><ul><li>Formulario de cotización</li><li>Botón directo a WhatsApp</li><li>Dominio y correo corporativo</li></ul></article>
-      <article class="svc"><span class="ic"><svg><use href="#i-crm"/></svg></span><h3>CRM & Seguimiento</h3><p>Un tablero donde cada solicitud tiene etapa, responsable y próxima acción.</p><ul><li>Pipeline de cotizaciones</li><li>Plantillas de seguimiento</li><li>Avisos de nuevas solicitudes</li></ul></article>
-      <article class="svc"><span class="ic"><svg><use href="#i-chat"/></svg></span><h3>WhatsApp Business</h3><p>Perfil, catálogo y respuestas listas para atender rápido y sin improvisar.</p><ul><li>Catálogo de servicios</li><li>Respuestas rápidas y etiquetas</li><li>Mensaje de bienvenida</li></ul></article>
-      <article class="svc"><span class="ic"><svg><use href="#i-flow"/></svg></span><h3>Automatización básica</h3><p>Flujos simples que evitan copiar datos a mano y olvidar tareas.</p><ul><li>Formulario → CRM</li><li>Recordatorios automáticos</li><li>Notificaciones al equipo</li></ul></article>
-      <article class="svc"><span class="ic"><svg><use href="#i-play"/></svg></span><h3>Contenido estratégico</h3><p>Convertir obras terminadas en publicaciones que generan confianza.</p><ul><li>Casos de proyecto</li><li>Formatos para redes y Google</li><li>Calendario sostenible</li></ul></article>
-      <article class="svc"><span class="ic"><svg><use href="#i-search"/></svg></span><h3>Diagnóstico digital</h3><p>Revisión de cómo te encuentran, cómo respondes y dónde se pierden clientes.</p><ul><li>Informe de una página</li><li>5 hallazgos concretos</li><li>3 acciones prioritarias</li></ul></article>
+
+      <details class="svc">
+        <summary>
+          <div class="top-row"><span class="ic"><svg><use href="#i-web"/></svg></span><span class="num">01</span></div>
+          <h3>Presencia digital</h3>
+          <p>Configuro y organizo los canales donde tu negocio es encontrado y contactado. La página web es una herramienta más, cuando hace falta.</p>
+          <span class="more"><i>+</i><span class="o">Ver qué incluye</span><span class="c">Ocultar</span></span>
+        </summary>
+        <div class="svc-body">
+          <div><h4>Canales y captación</h4><ul>
+            <li>Páginas web, landing pages y páginas corporativas, cuando son necesarias</li>
+            <li>Formularios de contacto y de captación</li>
+            <li>Google Business Profile y ubicación en mapas</li>
+            <li>WhatsApp Business: perfil, catálogo y respuestas rápidas</li>
+            <li>Botones de contacto e integración de canales</li>
+          </ul></div>
+          <div><h4>Configuración inicial de perfiles</h4><ul>
+            <li>Creación o configuración inicial de perfiles empresariales (Facebook e Instagram cuando corresponda)</li>
+            <li>Biografías, información comercial, enlaces, botones y llamadas a la acción</li>
+            <li>Integración de los perfiles con WhatsApp</li>
+            <li>Estructura inicial y organización básica del ecosistema digital</li>
+          </ul></div>
+          <p class="note"><b>Configuración y organización inicial</b>, no gestión mensual de redes sociales.</p>
+        </div>
+      </details>
+
+      <details class="svc key">
+        <summary>
+          <div class="top-row"><span class="ic"><svg><use href="#i-chart"/></svg></span><span class="num">02</span></div>
+          <h3>Estrategia de marketing digital</h3>
+          <p>Analizo tu presencia, tu contenido y tus métricas para definir qué publicar, para quién, dónde y por qué. Entrego la estrategia; la ejecución puede quedar en manos de tu equipo.</p>
+          <span class="more"><i>+</i><span class="o">Ver qué incluye</span><span class="c">Ocultar</span></span>
+        </summary>
+        <div class="svc-body">
+          <div><h4>Diagnóstico y análisis</h4><ul>
+            <li>Diagnóstico de presencia digital y revisión de perfiles</li>
+            <li>Análisis del contenido publicado y de las métricas disponibles</li>
+            <li>Alcance, interacción y rendimiento: qué funciona y qué no</li>
+            <li>Análisis básico de audiencia</li>
+            <li>Investigación de competencia y benchmarking</li>
+            <li>Tendencias del sector y posicionamiento digital</li>
+            <li>Evaluación de mensajes y comunicación de marca</li>
+          </ul></div>
+          <div><h4>Estrategia y hoja de ruta</h4><ul>
+            <li>Definición de objetivos</li>
+            <li>Pilares de contenido y propuesta de formatos</li>
+            <li>Recomendaciones para videos y publicaciones</li>
+            <li>Canales y frecuencia recomendados</li>
+            <li>Estructura de la estrategia y hoja de ruta de ejecución</li>
+            <li>Seguimiento y revisión periódica, si se contrata</li>
+          </ul></div>
+          <div><h4>Te ayudo a saber</h4><div class="tags"><span>Qué publicar</span><span>Por qué</span><span>Para quién</span><span>En qué plataforma</span><span>Con qué formato</span><span>Qué mejorar según los datos</span><span>Qué hace la competencia</span><span>Qué oportunidades existen</span></div></div>
+          <p class="note cy">Me apoyo en datos, herramientas digitales e IA para analizar métricas, investigar competencia y tendencias, comparar ideas y preparar informes. Las conclusiones pasan por criterio propio.</p>
+          <p class="note"><b>La ejecución es tuya:</b> el contenido lo puede producir tu equipo, un creador o una agencia, con una dirección clara. No ofrezco gestión mensual de redes ni producción continua de contenido.</p>
+          <a class="svc-link" target="_blank" rel="noopener" href="https://wa.me/573116994596?text=Hola%20Stiven%2C%20me%20interesa%20la%20estrategia%20de%20marketing%20digital%20para%20mi%20negocio.">Consultar por la estrategia ↗</a>
+        </div>
+      </details>
+
+      <details class="svc">
+        <summary>
+          <div class="top-row"><span class="ic"><svg><use href="#i-crm"/></svg></span><span class="num">03</span></div>
+          <h3>CRM y seguimiento comercial</h3>
+          <p>Organizo clientes, prospectos y cotizaciones para que ninguna oportunidad quede olvidada.</p>
+          <span class="more"><i>+</i><span class="o">Ver qué incluye</span><span class="c">Ocultar</span></span>
+        </summary>
+        <div class="svc-body">
+          <div><h4>Incluye</h4><ul>
+            <li>Configuración de CRM</li>
+            <li>Organización de clientes y prospectos</li>
+            <li>Etapas comerciales y seguimiento</li>
+            <li>Registro de cotizaciones</li>
+            <li>Recordatorios y tareas</li>
+            <li>Formularios y bases de datos conectadas</li>
+            <li>Organización comercial para reducir oportunidades olvidadas</li>
+          </ul></div>
+        </div>
+      </details>
+
+      <details class="svc">
+        <summary>
+          <div class="top-row"><span class="ic"><svg><use href="#i-flow"/></svg></span><span class="num">04</span></div>
+          <h3>Automatización e IA aplicada</h3>
+          <p>Reduzco tareas repetitivas conectando las herramientas que ya usas, y aplico IA solo cuando aporta.</p>
+          <span class="more"><i>+</i><span class="o">Ver qué incluye</span><span class="c">Ocultar</span></span>
+        </summary>
+        <div class="svc-body">
+          <div><h4>Incluye</h4><ul>
+            <li>Automatización de procesos repetitivos</li>
+            <li>Formularios conectados</li>
+            <li>Respuestas frecuentes por WhatsApp y correo</li>
+            <li>Clasificación de solicitudes</li>
+            <li>Notificaciones al equipo</li>
+            <li>Conexión entre herramientas</li>
+            <li>Automatizaciones sencillas e IA aplicada cuando tiene sentido</li>
+          </ul></div>
+          <p class="note">Si una automatización depende de una herramienta de pago, <b>te lo informo antes de proponerla</b>.</p>
+        </div>
+      </details>
+
+      <details class="svc">
+        <summary>
+          <div class="top-row"><span class="ic"><svg><use href="#i-gear"/></svg></span><span class="num">05</span></div>
+          <h3>Sistemas digitales para negocios</h3>
+          <p>Construyo sistemas sencillos a la medida del proceso: recepción de solicitudes, estados, paneles y registros.</p>
+          <span class="more"><i>+</i><span class="o">Ver qué incluye</span><span class="c">Ocultar</span></span>
+        </summary>
+        <div class="svc-body">
+          <div><h4>Incluye</h4><ul>
+            <li>Formularios avanzados y recepción de solicitudes</li>
+            <li>Paneles sencillos y hojas operativas</li>
+            <li>Seguimiento de estados</li>
+            <li>Automatización con Google Apps Script</li>
+            <li>Sistemas internos y bases de datos operativas</li>
+            <li>Conexión entre herramientas y flujos personalizados</li>
+          </ul></div>
+        </div>
+      </details>
+
+      <details class="svc">
+        <summary>
+          <div class="top-row"><span class="ic"><svg><use href="#i-search"/></svg></span><span class="num">06</span></div>
+          <h3>Diagnóstico y acompañamiento digital</h3>
+          <p>Analizamos qué ocurre antes de decidir la solución, y te acompaño durante y después de implementarla.</p>
+          <span class="more"><i>+</i><span class="o">Ver qué incluye</span><span class="c">Ocultar</span></span>
+        </summary>
+        <div class="svc-body">
+          <div><h4>Incluye</h4><ul>
+            <li>Diagnóstico digital y análisis del negocio</li>
+            <li>Revisión de procesos, canales y herramientas existentes</li>
+            <li>Identificación de problemas y tareas repetitivas</li>
+            <li>Propuesta de mejoras y hoja de ruta</li>
+            <li>Acompañamiento de implementación</li>
+            <li>Revisión posterior</li>
+          </ul></div>
+          <a class="svc-link" href="#diagnostico">Ver cómo funciona el diagnóstico ↑</a>
+        </div>
+      </details>
+
+    </div>
+
+    <div class="scope">
+      <div class="scope-col yes">
+        <span class="eyebrow">Lo que sí hago</span>
+        <ul>
+          <li><svg><use href="#i-check"/></svg>Diagnóstico y estrategia de marketing digital</li>
+          <li><svg><use href="#i-check"/></svg>Configuración y organización inicial de perfiles y canales</li>
+          <li><svg><use href="#i-check"/></svg>Implementación de presencia digital, CRM, automatizaciones y sistemas</li>
+          <li><svg><use href="#i-check"/></svg>Acompañamiento y revisión periódica, si se contrata</li>
+        </ul>
+      </div>
+      <div class="scope-col no">
+        <span class="eyebrow">Lo que hoy no ofrezco</span>
+        <ul>
+          <li><svg><use href="#i-arrow"/></svg>Gestión mensual de redes sociales (community management)</li>
+          <li><svg><use href="#i-arrow"/></svg>Producción y publicación continua de contenido</li>
+          <li><svg><use href="#i-arrow"/></svg>Grabación recurrente de videos para clientes</li>
+        </ul>
+        <p>Si tu negocio necesita esa ejecución, la estrategia queda lista para que la lleve tu equipo, un creador o una agencia.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="band" id="experiencia">
+<section class="band alt" id="ia">
+  <div class="wrap">
+    <div class="ia">
+      <div>
+        <div class="head">
+          <span class="eyebrow">Inteligencia artificial</span>
+          <h2>No vendo IA. La uso para trabajar mejor.</h2>
+          <p>Lo que entrego son soluciones. La IA es una de las herramientas con las que investigo, analizo, automatizo y produzco más rápido.</p>
+        </div>
+        <p class="ia-msg">Uso datos, herramientas digitales e inteligencia artificial para analizar más información y convertirla en decisiones y planes de acción comprensibles para el negocio.</p>
+      </div>
+      <div class="ia-cards">
+        <div class="ia-card">
+          <h3>En qué me apoya</h3>
+          <div class="tags"><span>Análisis de información</span><span>Análisis de métricas</span><span>Identificación de patrones</span><span>Investigación de competencia</span><span>Tendencias</span><span>Generación y comparación de ideas</span><span>Estructuración de estrategias</span><span>Organización de información</span><span>Apoyo para guiones</span><span>Propuestas de contenido</span><span>Análisis de resultados</span><span>Informes</span><span>Diagnósticos más ágiles</span></div>
+        </div>
+        <div class="ia-card">
+          <h3>Lo que no hace</h3>
+          <ul>
+            <li><svg><use href="#i-shield"/></svg>No reemplaza el criterio humano ni el conocimiento de tu negocio.</li>
+            <li><svg><use href="#i-shield"/></svg>Sus resultados se revisan antes de convertirse en recomendaciones.</li>
+            <li><svg><use href="#i-shield"/></svg>Solo se implementa dentro de una solución cuando aporta valor real.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="proyectos">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">Experiencia aplicada</span>
-      <h2>Proyectos reales, en operación.</h2>
-      <p>No parto de una presentación vacía. Estas capacidades ya están funcionando en empresas de Antioquia.</p>
+      <span class="eyebrow">Proyectos reales</span>
+      <h2>Trabajo aplicado en empresas y proyectos reales.</h2>
+      <p>Muestro lo que se hizo, sin métricas infladas ni resultados que no pueda comprobar.</p>
     </div>
 
     <div class="cases">
@@ -582,11 +928,11 @@ footer strong{color:var(--txt)}
           </div>
         </div>
         <div class="case-body">
-          <span class="eyebrow">Web + CRM + Captación</span>
-          <h3>KVA RETIE Energy Solutions</h3>
-          <p>Empresa de ingeniería eléctrica: diseño, inspección, legalización y certificación RETIE. Organicé su presencia digital y su operación comercial de punta a punta.</p>
+          <span class="eyebrow">Presencia digital · CRM · Organización comercial</span>
+          <h3>KVARETIE Energy Solutions</h3>
+          <p>Empresa de ingeniería eléctrica en Antioquia: diseño, inspección, legalización y certificación RETIE. Apoyo su área digital y comercial: estructura de presencia digital, canales de contacto, CRM y organización de solicitudes.</p>
           <div class="deliv">
-            <span>Sitio web con dominio propio</span><span>Presentación digital</span><span>Perfil de Empresa en Google</span><span>CRM HubSpot y pipeline</span><span>Formulario Red de Aliados</span><span>WhatsApp Business</span><span>Portafolio Meta Business</span>
+            <span>Sitio web con dominio propio</span><span>Presentación digital</span><span>Perfil de Empresa en Google</span><span>CRM HubSpot con pipeline</span><span>Formulario Red de Aliados</span><span>WhatsApp Business</span><span>Portafolio de Meta Business</span><span>Organización de perfiles</span>
           </div>
           <a class="case-link" href="https://kvaretie.com/presentacion/" target="_blank" rel="noopener">kvaretie.com/presentacion ↗</a>
         </div>
@@ -605,71 +951,93 @@ footer strong{color:var(--txt)}
           </div>
         </div>
         <div class="case-body">
-          <span class="eyebrow">Web + Catálogo + Pedidos</span>
+          <span class="eyebrow">Dirección de proyecto web · Presencia digital</span>
           <h3>Espacio Artístico S.A.S.</h3>
-          <p>Taller de escultura, árboles artificiales y tematización en Medellín. Dirigí su nueva web institucional y el flujo de pedidos.</p>
-          <div class="deliv"><span>Web en Webflow</span><span>Dominio .com.co</span><span>Correos corporativos</span><span>Galería y flujo de pedidos</span><span>Perfil de Empresa en Google</span></div>
+          <p>Taller de escultura, árboles artificiales y tematización en Medellín. Dirijo el proyecto de su nueva web institucional y la organización de su presencia digital.</p>
+          <div class="deliv"><span>Web institucional en Webflow</span><span>Dominio .com.co</span><span>Correos corporativos</span><span>Galería Virtual con solicitud de pedidos</span><span>Perfil de Empresa en Google</span></div>
+        </div>
+      </article>
+
+      <article class="case">
+        <div class="case-visual v-oc">
+          <div class="mini">
+            <div class="win-bar"><i></i><i></i><i></i><span class="url">oficiocerca.pages.dev</span></div>
+            <div class="mini-in">
+              <small>Piloto · Córdoba, España</small>
+              <strong>El trabajo que necesitas, más cerca.</strong>
+              <div class="track"><span class="on">Recibida</span><span class="on">Asignada</span><span>En curso</span><span>Cerrada</span></div>
+              <div class="row"><span class="cta-s">Solicitar servicio</span><span class="cta-g">Soy profesional</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="case-body">
+          <span class="eyebrow">Proyecto propio · Sistema digital</span>
+          <h3>OficioCerca — Córdoba, España</h3>
+          <span class="case-status">Plataforma digital en fase piloto y validación</span>
+          <p>Plataforma desarrollada para conectar clientes con profesionales de oficios y gestionar digitalmente solicitudes, registros, estados, fotografías y seguimiento operativo.</p>
+          <div class="deliv"><span>Página web</span><span>Formularios</span><span>Registro de solicitudes</span><span>Registro de profesionales</span><span>Códigos de seguimiento</span><span>Gestión de estados</span><span>Panel operativo inicial</span><span>Almacenamiento de información</span><span>Automatización de procesos</span></div>
+          <p class="small">La V1 ya está desarrollada; el proyecto está en etapa de piloto y validación con el mercado.</p>
+          <a class="case-link" href="https://oficiocerca.pages.dev/" target="_blank" rel="noopener">oficiocerca.pages.dev ↗</a>
         </div>
       </article>
     </div>
   </div>
 </section>
 
-<section class="band alt" id="paquetes">
+<section class="band alt" id="formas">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow">Cómo empezamos</span>
-      <h2>Tres paquetes claros, con alcance por escrito.</h2>
-      <p>Cada empresa arranca donde más se le están perdiendo clientes. Se pueden contratar por separado o combinados.</p>
+      <span class="eyebrow">Formas de trabajar</span>
+      <h2>Empezamos por entender. Luego construimos lo necesario.</h2>
+      <p>Se pueden contratar por separado o en secuencia. El alcance siempre queda por escrito.</p>
     </div>
     <div class="pkgs">
-      <article class="pkg">
-        <div class="kicker"><span class="eyebrow">Presencia</span></div>
-        <h3>Kit Presencia Técnica</h3>
-        <p>Para que te encuentren y te vean como la empresa seria que eres.</p>
-        <ul>
-          <li><svg><use href="#i-check"/></svg>Web o landing de 3 a 5 secciones</li>
-          <li><svg><use href="#i-check"/></svg>Perfil de Empresa en Google</li>
-          <li><svg><use href="#i-check"/></svg>WhatsApp Business organizado</li>
-          <li><svg><use href="#i-check"/></svg>Portafolio digital para constructoras</li>
-        </ul>
-        <span class="for">Entrega en 2 a 3 semanas</span>
-      </article>
       <article class="pkg feat">
-        <div class="kicker"><span class="eyebrow">Ventas</span><span class="flag">Más pedido</span></div>
-        <h3>Sistema de Seguimiento de Cotizaciones</h3>
-        <p>Para que ninguna cotización se quede sin respuesta.</p>
+        <div class="kicker"><span class="eyebrow">Punto de partida</span><span class="flag">Recomendado</span></div>
+        <h3>Diagnóstico digital</h3>
+        <p>Para entender qué está pasando antes de invertir en herramientas.</p>
         <ul>
-          <li><svg><use href="#i-check"/></svg>CRM con etapas de venta</li>
-          <li><svg><use href="#i-check"/></svg>Formulario conectado al CRM</li>
-          <li><svg><use href="#i-check"/></svg>Plantillas de seguimiento por WhatsApp</li>
-          <li><svg><use href="#i-check"/></svg>Recordatorios y capacitación al equipo</li>
+          <li><svg><use href="#i-check"/></svg>Revisión del negocio, canales y herramientas</li>
+          <li><svg><use href="#i-check"/></svg>Análisis de procesos y tareas repetitivas</li>
+          <li><svg><use href="#i-check"/></svg>Hallazgos priorizados</li>
+          <li><svg><use href="#i-check"/></svg>Hoja de ruta con próximos pasos</li>
         </ul>
-        <span class="for">Entrega en 1 a 2 semanas</span>
+        <span class="for">Entregable: informe y hoja de ruta</span>
+      </article>
+      <article class="pkg">
+        <div class="kicker"><span class="eyebrow">Construcción</span></div>
+        <h3>Proyecto de implementación</h3>
+        <p>Para ejecutar una parte concreta de la solución.</p>
+        <ul>
+          <li><svg><use href="#i-check"/></svg>Presencia digital y configuración de canales</li>
+          <li><svg><use href="#i-check"/></svg>Estrategia de marketing digital documentada</li>
+          <li><svg><use href="#i-check"/></svg>CRM y seguimiento comercial</li>
+          <li><svg><use href="#i-check"/></svg>Automatizaciones y sistemas digitales</li>
+        </ul>
+        <span class="for">Alcance y tiempos por escrito</span>
       </article>
       <article class="pkg">
         <div class="kicker"><span class="eyebrow">Continuidad</span></div>
-        <h3>Acompañamiento mensual</h3>
-        <p>Para que el sistema siga vivo y actualizado.</p>
+        <h3>Acompañamiento y revisión</h3>
+        <p>Para revisar, ajustar y mantener el rumbo después de implementar.</p>
         <ul>
-          <li><svg><use href="#i-check"/></svg>Actualizaciones de la web</li>
-          <li><svg><use href="#i-check"/></svg>Publicación de proyectos terminados</li>
-          <li><svg><use href="#i-check"/></svg>Revisión mensual del pipeline</li>
-          <li><svg><use href="#i-check"/></svg>Ajustes y soporte</li>
+          <li><svg><use href="#i-check"/></svg>Revisión periódica de resultados y métricas</li>
+          <li><svg><use href="#i-check"/></svg>Ajustes a la estrategia según los datos</li>
+          <li><svg><use href="#i-check"/></svg>Ajustes a CRM, automatizaciones y sistemas</li>
+          <li><svg><use href="#i-check"/></svg>Apoyo para que el equipo adopte las herramientas</li>
         </ul>
-        <span class="for">Mes a mes, sin permanencia</span>
+        <span class="for">Periodicidad acordada, sin permanencia</span>
       </article>
     </div>
     <div class="entry">
-      <p><b>Punto de partida: diagnóstico sin costo.</b> Reviso cómo te encuentran en Google, tu web, tu WhatsApp y cómo responden una solicitud de cotización. Te entrego un informe de una página con los hallazgos y lo que haría primero.</p>
-      <a class="btn primary" target="_blank" rel="noopener" href="https://wa.me/573116994596?text=Hola%20Stiven,%20quiero%20el%20diagn%C3%B3stico%20sin%20costo.">Pedir diagnóstico</a>
+      <p><b>Primer paso: conversación inicial sin costo.</b> Me cuentas cómo funciona tu negocio y qué te preocupa. Te digo con claridad si puedo ayudarte y cuál sería el siguiente paso.</p>
+      <a class="btn primary" target="_blank" rel="noopener" href="https://wa.me/573116994596?text=Hola%20Stiven%2C%20quiero%20agendar%20una%20conversaci%C3%B3n%20inicial.">Agendar conversación</a>
     </div>
 
     <div class="investment-note">
       <span class="eyebrow">Inversión</span>
-      <p><b>No manejo una tarifa única para todos.</b> La inversión se define después del diagnóstico, según el alcance, la complejidad, el número de herramientas y el nivel de acompañamiento. Si una solución requiere licencias, dominios, hosting o plataformas de terceros, esos costos se cotizan por separado y quedan a nombre de la empresa.</p>
+      <p><b>No manejo una tarifa única para todos.</b> La inversión se define según el alcance, la complejidad, el número de herramientas y el nivel de acompañamiento. Si una solución requiere licencias, dominios, hosting, automatizaciones o plataformas de pago, te lo informo antes de proponerla; esos costos se cotizan por separado y quedan a nombre de la empresa.</p>
     </div>
-
   </div>
 </section>
 
@@ -681,10 +1049,10 @@ footer strong{color:var(--txt)}
       <p>Solo implemento lo que tenga sentido para tu operación.</p>
     </div>
     <div class="steps">
-      <div class="step"><span class="n">01</span><h3>Diagnóstico</h3><p>Detecto fricción, pérdidas y oportunidades.</p><span class="time">20 min · sin costo</span></div>
-      <div class="step"><span class="n">02</span><h3>Arquitectura</h3><p>Defino la solución, el alcance y los tiempos por escrito.</p><span class="time">Propuesta en 48 h</span></div>
-      <div class="step"><span class="n">03</span><h3>Implementación</h3><p>Construyo, conecto y pruebo cada pieza.</p><span class="time">1 a 3 semanas</span></div>
-      <div class="step"><span class="n">04</span><h3>Entrega</h3><p>Dejo el sistema funcionando y al equipo capacitado.</p><span class="time">Con manual de uso</span></div>
+      <div class="step"><span class="n">01</span><h3>Conversación</h3><p>Entiendo tu negocio, tus canales y lo que te preocupa.</p><span class="time">20 min · sin costo</span></div>
+      <div class="step"><span class="n">02</span><h3>Diagnóstico</h3><p>Analizo procesos, canales, herramientas y datos disponibles.</p><span class="time">Hallazgos priorizados</span></div>
+      <div class="step"><span class="n">03</span><h3>Hoja de ruta</h3><p>Propongo qué hacer, en qué orden y con qué alcance.</p><span class="time">Propuesta por escrito</span></div>
+      <div class="step"><span class="n">04</span><h3>Implementación</h3><p>Construyo, conecto, pruebo y reviso que funcione.</p><span class="time">Con revisión posterior</span></div>
     </div>
   </div>
 </section>
@@ -698,8 +1066,8 @@ footer strong{color:var(--txt)}
     <div class="commit">
       <div class="c-item"><svg><use href="#i-key"/></svg><h3>Todo queda a tu nombre</h3><p>Dominio, Google, Meta y CRM son de tu empresa, no míos.</p></div>
       <div class="c-item"><svg><use href="#i-doc"/></svg><h3>Alcance por escrito</h3><p>Sabes qué incluye, qué no y cuándo se entrega.</p></div>
-      <div class="c-item"><svg><use href="#i-chart"/></svg><h3>Medimos antes y después</h3><p>Tiempo de respuesta, cotizaciones al mes y seguimiento.</p></div>
-      <div class="c-item"><svg><use href="#i-shield"/></svg><h3>Sin promesas infladas</h3><p>No prometo ventas que no controlo. Entrego sistemas que funcionan.</p></div>
+      <div class="c-item"><svg><use href="#i-chart"/></svg><h3>Decisiones con datos</h3><p>Recomendaciones basadas en lo que muestran tus canales y procesos.</p></div>
+      <div class="c-item"><svg><use href="#i-shield"/></svg><h3>Sin promesas infladas</h3><p>No prometo ventas que no controlo. Entrego soluciones que funcionan.</p></div>
     </div>
   </div>
 </section>
@@ -710,13 +1078,13 @@ footer strong{color:var(--txt)}
       <div class="cta-copy">
         <span class="eyebrow">Hablemos</span>
         <h2>¿Revisamos tu negocio?</h2>
-        <p>Si tu empresa ya funciona pero su presencia digital, captación o seguimiento comercial están desordenados, te ayudo a identificar dónde se están perdiendo oportunidades.</p>
+        <p>Si tu negocio ya funciona pero su presencia digital, su seguimiento comercial o sus procesos están desordenados, empecemos por entender qué está pasando y qué conviene hacer primero.</p>
       </div>
       <div class="cards">
         <div class="ct"><svg><use href="#i-wa"/></svg><div><small>WhatsApp</small><span id="v-phone">+57 311 699 4596</span></div><button class="copy" type="button" data-copy="v-phone">Copiar</button></div>
         <div class="ct"><svg><use href="#i-mail"/></svg><div><small>Correo</small><span id="v-mail">stymaster182@gmail.com</span></div><button class="copy" type="button" data-copy="v-mail">Copiar</button></div>
         <div class="ct"><svg><use href="#i-pin"/></svg><div><small>Cobertura</small><span>Medellín · Valle de Aburrá · Remoto</span></div></div>
-        <a class="btn primary" target="_blank" rel="noopener" href="https://wa.me/573116994596?text=Hola%20Stiven,%20quiero%20una%20revisi%C3%B3n%20de%20mi%20negocio."><svg><use href="#i-wa"/></svg>Hablar por WhatsApp</a>
+        <a class="btn primary" target="_blank" rel="noopener" href="https://wa.me/573116994596?text=Hola%20Stiven%2C%20quiero%20solicitar%20un%20diagn%C3%B3stico%20de%20mi%20negocio."><svg><use href="#i-wa"/></svg>Hablar por WhatsApp</a>
       </div>
     </div>
   </div>
@@ -725,7 +1093,7 @@ footer strong{color:var(--txt)}
 
 <footer>
   <div class="wrap">
-    <span><strong>Stiven Bedoya</strong> · Sistemas digitales para empresas de servicios técnicos.</span>
+    <span><strong>Stiven Bedoya</strong> · Soluciones digitales · Estrategia · Automatización · Sistemas para negocios</span>
     <span>Medellín, Colombia</span>
   </div>
 </footer>
